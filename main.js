@@ -10,7 +10,6 @@ var block_image_object = "";
 
 function new_image(get_image) {
 
-    function new_image(get_image)
     fabric.Image.FromURL(get_image, function(Img) {
         block_image_object = Img;
         block_image_object.scaleToWidth(block_image_width);
